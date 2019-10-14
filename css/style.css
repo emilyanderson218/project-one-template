@@ -43,7 +43,6 @@ li {
 		background-color: #cda7a4;
 		width: 100%;
 		background-size: 50px;
-		margin: 80px;
 		height: 100vh;}
 
 .plane {background-image: url(../images/plane.png);
@@ -73,8 +72,7 @@ li {
 		background-color: #7687a5;
 		width: 100%;
 		background-size: 50px;
-		margin: 80px;
-		height: 100vh;}
+		height: 70vh;}
 
 .netherlands {background-image: url(../images/amsterdam.png);
        width: 50%;
@@ -86,7 +84,6 @@ li {
 		background-color: #9f7782;
 		width: 100%;
 		background-size: 50px;
-		margin: 80px;
 		height: 100vh;}
 
 .switzerland {background-image: url(../images/lucerne.png);
@@ -99,7 +96,6 @@ li {
 		background-color: #4d6d82;
 		width: 100%;
 		background-size: 50px;
-		margin: 80px;
 		height: 100vh;}
 
 .italy {background-image: url(../images/rome.png);
@@ -112,7 +108,6 @@ li {
 		background-color: #d7ac9a;
 		width: 100%;
 		background-size: 50px;
-		margin: 80px;
 		height: 100vh;}
 
 

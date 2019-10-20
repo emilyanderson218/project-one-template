@@ -1,13 +1,5 @@
 body {background-color: white;}
 
-.cream {height: 100px;width:100%;
-		background-color: #f8e4d7;}
-
-.hdashed {border-top:5px dashed #143a4c;
-		 margin-top: 50px;
-		 width: 50%;
-}
-
 nav li {
 	display: inline-block;
 	margin-right: 40px;
@@ -33,17 +25,74 @@ h2 {
   font-family: "Montserrat", Monospace;
 }
 
+p {
+  font-family: "Montserrat", Monospace;
+}
+
 li {
   font-family: "Montserrat", Monospace;
   font-size: 15px;
 
 }
 
-.plane-color {height: 100px;width:100%;
-		background-color: #cda7a4;
-		width: 100%;
-		background-size: 50px;
-		height: 100vh;}
+.cream {height: 100px;width:100%;
+		background-color: #f8e4d7;}
+
+.hdashed {border-top:5px dashed #143a4c;
+		 margin-top: 50px;
+		 width: 50%;
+}
+
+.master-grid { 
+	display: grid; 
+	grid-template-columns: 50% 50%;
+	min-height: 400px;
+}
+
+.home {font-family: Didot;
+	   font-size: 45px;
+	   font-weight: bold;
+	   color: #143a4c;
+	   margin-top: 30px;
+	   margin-left: 10px;}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 0px;
+padding: 20px 60px;
+}
+
+.grid-container ul { 
+	margin-left: 20px; 
+	margin-top: 50px;
+}
+
+.plane-bg {background-color: #cda7a4;}
+.uk-bg {background-color: #7687a5;}
+.amsterdam-bg {background-color: #9f7782;}
+.swiss-bg {background-color: #4d6d82;}
+.rome-bg {background-color: #d7ac9a;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .plane {background-image: url(../images/plane.png);
        width: 60%;
@@ -51,22 +100,16 @@ li {
        margin: 80px auto;
        height: 80vh;}
 
+
 .vdashed {border-left: 6px dashed #143a4c;
 		  margin-right:20px;}
 
-.home {font-family: Didot;
-	   font-size: 45px;
-	   font-weight: bold;
-	   color: #143a4c;
-	   margin-top: 30px;
-	   margin-left: 10px;
-	   text-shadow: 3px 2px lightgray;}
 
 .uk {background-image: url(../images/london.png);
        width: 50%;
        background-size: cover; 
        margin: 80px auto;
-       height: 70vh;}
+   }
 
 .london-color {height: 100px;width:100%;
 		background-color: #7687a5;
@@ -78,7 +121,8 @@ li {
        width: 50%;
        background-size: cover; 
        margin: 80px auto;
-       height: 70vh;}
+       background-color: #9f7782;
+   }
 
 .amsterdam-color {height: 100px;width:100%;
 		background-color: #9f7782;
@@ -109,17 +153,5 @@ li {
 		width: 100%;
 		background-size: 50px;
 		height: 100vh;}
-
-
-
-
-
-
-
-
-
-
-
-
 
 

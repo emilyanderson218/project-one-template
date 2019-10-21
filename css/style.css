@@ -79,9 +79,16 @@ padding: 20px 60px;
 }
 
 .plane-bg {background-color: #cda7a4;}
-.uk-bg {background-color: #7687a5;}
+
+.uk-bg {background-color: #7687a5;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
 .amsterdam-bg {background-color: #9f7782;}
+
 .swiss-bg {background-color: #4d6d82;}
+
 .rome-bg {background-color: #d7ac9a;}
 
 
@@ -90,12 +97,6 @@ padding: 20px 60px;
        background-size: cover; 
        margin: 80px auto;
        height: 80vh;}
-
-
-
-
-
-
 
 
 

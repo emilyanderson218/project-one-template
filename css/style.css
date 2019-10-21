@@ -17,16 +17,16 @@ header {
 	grid-template-columns: 30% 20% 50%;}
 
 ul {
-  font-family: "Montserrat", Monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5px;
 }
 
 h2 {
-  font-family: "Montserrat", Monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-  font-family: "Montserrat", Monospace;
+  font-family: 'Montserrat', sans-serif;
   color: #112938;
   text-align: center;
   font-size: 20px;
@@ -34,19 +34,20 @@ h3 {
 }
 
 p {
-  font-family: "Montserrat", Monospace;
+  font-family: 'Montserrat', sans-serif;
   color: #cda7a4;
   text-align: center;
   font-size: 20px;
 }
 
 li {
-  font-family: "Montserrat", Monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
 
 .cream {height: 100px;width:100%;
-		background-color: #f8e4d7;}
+		background-color: #f8e4d7;
+		margin-top: 60px;}
 
 .hdashed {border-top:5px dashed #143a4c;
 		 margin-top: 50px;
@@ -59,18 +60,19 @@ li {
 	min-height: 400px;
 }
 
-.home {font-family: Didot;
+.home {font-family: linotype-didot-headline, serif;
+       font-weight: 400;
+       font-style: normal;
 	   font-size: 45px;
-	   font-weight: bold;
 	   color: #143a4c;
 	   margin-top: 30px;
 	   margin-left: 10px;}
 
 .grid-container {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-column-gap: 0px;
-padding: 20px 60px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 0px;
+	padding: 20px 60px;
 }
 
 .grid-container ul { 
@@ -82,14 +84,23 @@ padding: 20px 60px;
 
 .uk-bg {background-color: #7687a5;
 		margin-top: 20px;
-		margin-bottom: 20px;
-	}
+		margin-bottom: 15px;
+}
 
-.amsterdam-bg {background-color: #9f7782;}
+.amsterdam-bg {background-color: #9f7782;
+			   margin-top: 20px;
+			   margin-bottom: 15px;
+}
 
-.swiss-bg {background-color: #4d6d82;}
+.swiss-bg {background-color: #4d6d82;
+		   margin-top: 20px;
+		   margin-bottom: 15px;
+}
 
-.rome-bg {background-color: #d7ac9a;}
+.rome-bg {background-color: #d7ac9a;
+		  margin-top: 20px;
+	      margin-bottom: 15px;
+}
 
 
 .plane {background-image: url(../images/plane.png);
@@ -98,27 +109,10 @@ padding: 20px 60px;
        margin: 80px auto;
        height: 80vh;}
 
-
-
-
-
-
-
-
-
-
 .vdashed {border-left: 6px dashed #143a4c;
 		  margin-right:20px;}
 
+.photo {margin-top: 20px;
+		margin-bottom:12px;
+}
 
-.uk {background-image: url(../images/london.png);
-       width: 50%;
-       background-size: cover; 
-       margin: 80px auto;
-   }
-
-.london-color {height: 100px;width:100%;
-		background-color: #7687a5;
-		width: 100%;
-		background-size: 50px;
-		height: 70vh;}

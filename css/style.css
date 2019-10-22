@@ -23,6 +23,9 @@ ul {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #f8e4d7;
+  font-size: 23px;
 }
 
 h3 {
@@ -124,16 +127,15 @@ li {
 }
 
 .daily-text h3 {
-  margin: 5%;
+  margin: 3%;
   font-weight: bold;
   color: #143a4c;
-  padding-top: 508px;
+  padding-top: 520px;
+  font-size: 18px;
 }
  
 .daily-text p {
   margin: 2%;
   color: #cda7a4;
-
-}
-
+  font-size: 18px;}
 

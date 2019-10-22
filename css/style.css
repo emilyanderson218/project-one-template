@@ -112,7 +112,9 @@ li {
 
 .plane-bg {height:100%;width:100%;
 		   background-color: #cda7a4;
-		   margin-top: 60px;}
+		   margin-top: 20px;
+	       margin-bottom: 15px;
+}
 
 .plane-photo{
   background-image: url(../images/plane-white.png);
@@ -138,4 +140,14 @@ li {
   margin: 2%;
   color: #cda7a4;
   font-size: 18px;}
+
+
+img {opacity: 0.3;
+  	 filter: alpha(opacity=50);
+}
+
+img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
 

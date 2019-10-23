@@ -6,7 +6,8 @@ nav li {
 	margin-top: 40px;
 	color: #143a4c;}
 
-a {text-decoration: none}
+a {text-decoration: none
+color: #143a4c;}
 
 a:visited {color: #143a4c;}
 

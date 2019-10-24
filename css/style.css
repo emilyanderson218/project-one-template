@@ -6,12 +6,15 @@ nav li {
 	margin-top: 40px;
 	color: #143a4c;}
 
-a {text-decoration: none
-color: #143a4c;}
+a {color: #143a4c;
+   text-decoration: none;}
 
-a:visited {color: #143a4c;}
+a:visited {color: #143a4c;
+           text-decoration: none;}
 
-a:hover {color: #cda7a4;}
+a:hover {color: #cda7a4;
+         text-decoration: none;
+}
 
 header { 
 	display: grid;
@@ -55,7 +58,10 @@ p {
 
 li {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
+  color: #f8e4d7;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .cream {height: 100px;width:100%;
@@ -117,11 +123,27 @@ li {
 	      margin-bottom: 15px;
 }
 
+.venice-bg {background-color: #b48979;
+      margin-top: 20px;
+        margin-bottom: 15px;
+}
+
 .vdashed {border-left: 6px dashed #143a4c;
 		  margin-right:20px;}
 
 .photo {margin-top: 20px;
 		margin-bottom:12px;
+}
+
+.photo img {width:100%;}
+
+img {opacity: 0.3;
+     filter: alpha(opacity=50);
+}
+
+img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .plane-bg {height:100%;width:100%;
@@ -155,13 +177,14 @@ li {
   color: #cda7a4;
   font-size: 18px;}
 
-
-img {opacity: 0.3;
-  	 filter: alpha(opacity=50);
+.categories {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #f8e4d7;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
-img:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
+.right-info {padding-top: 23px;}
 

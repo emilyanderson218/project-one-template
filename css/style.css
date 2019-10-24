@@ -132,7 +132,7 @@ li {
 }
 
 .vdashed {border-left: 6px dashed #143a4c;
-		  margin-right:20px;}
+		      margin-right: 100px;}
 
 .photo {margin-top: 20px;
 		margin-bottom:12px;
@@ -191,3 +191,8 @@ img:hover {
 
 .right-info {padding-top: 40px;}
 
+.dash-break {border-top:6px dashed #143a4c;
+     width: 100%; 
+     margin-top: 20px;
+     margin-bottom: 17px;
+}

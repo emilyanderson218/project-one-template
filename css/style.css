@@ -32,6 +32,7 @@ h2 {
   font-weight: bold;
   color: #f8e4d7;
   font-size: 23px;
+  padding-top: 15px;
 }
 
 h3 {
@@ -188,5 +189,5 @@ img:hover {
   padding-top: 15px;
 }
 
-.right-info {padding-top: 23px;}
+.right-info {padding-top: 40px;}
 
